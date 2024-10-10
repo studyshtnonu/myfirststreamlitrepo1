@@ -3,5 +3,5 @@ from datetime import time , datetime
 
 st.subheader('st.slider')
 
-age = st.lslider('How Old Are You?', 0, 15,25)
+age = st.slider('How Old Are You?', 0, 15,25)
 st.write('I am',age,' old')
