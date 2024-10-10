@@ -8,6 +8,6 @@ st.write('I am',age,' old')
 
 st.subheader('st.range')
 
-values_between = st.slider('select a set of range',0.0,100.0,(25,50))
+values_between = st.slider('select a set of range',0.0,100.0,(25.0,50.0))
 st.write(values_between)
 
